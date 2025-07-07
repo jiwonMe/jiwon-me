@@ -1,6 +1,6 @@
-# Noxion 📝
+# Jiwon's Blog 📝
 
-A modern, fast, and beautiful blog platform powered by Notion and Next.js 14. Transform your Notion pages into a stunning blog with zero coding required.
+개발자 지원의 개인 블로그입니다. Notion으로 컨텐츠를 작성하고 Next.js 14로 구현한 현대적이고 빠른 블로그입니다.
 
 ## ✨ Features
 
@@ -66,9 +66,9 @@ next-notion-blog/
     └── components.json   # shadcn/ui configuration
 ```
 
-## 🎯 Demo
+## 🎯 Live Site
 
-Check out a live demo at [your-demo-url.com](https://your-demo-url.com)
+실제 사이트는 [jiwon.me](https://jiwon.me)에서 확인하실 수 있습니다.
 
 ## Quick Start
 
@@ -102,7 +102,7 @@ Create a new Notion database with the following properties:
 
 ### 4. Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/noxion)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jiwon-me/jiwon-me)
 
 1. Click the deploy button above
 2. Fork the repository
@@ -114,8 +114,8 @@ Create a new Notion database with the following properties:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/noxion.git
-cd noxion
+git clone https://github.com/jiwon-me/jiwon-me.git
+cd jiwon-me
 
 # Install dependencies (using pnpm for faster installs)
 pnpm install
@@ -144,20 +144,19 @@ Edit `site.config.ts` to personalize your blog:
 ```typescript
 // site.config.ts
 export const siteConfig: SiteConfig = {
-  name: "My Awesome Blog",
-  shortName: "My Blog", 
-  description: "My personal blog about web development",
+  name: "Jiwon's Blog",
+  shortName: "Jiwon", 
+  description: "개발자 지원의 일상과 기술에 대한 이야기를 담은 개인 블로그입니다.",
   
   logo: {
     icon: BookOpen,  // Change the logo icon
-    text: "My Blog",
+    text: "Jiwon",
     showText: true
   },
   
   social: {
-    twitter: "@your_handle",
-    github: "https://github.com/your-username",
-    email: "your.email@example.com"
+    github: "https://github.com/jiwon-me",
+    email: "hello@jiwon.me"
   },
   
   navigation: {
@@ -194,8 +193,8 @@ NOTION_TOKEN=your_notion_integration_token_here
 NOTION_DATABASE_ID=your_notion_database_id_here
 
 # Optional - Site Configuration
-NEXT_PUBLIC_SITE_URL=https://your-domain.com
-NEXT_PUBLIC_SITE_NAME=Noxion
+NEXT_PUBLIC_SITE_URL=https://jiwon.me
+NEXT_PUBLIC_SITE_NAME=Jiwon
 
 # Optional - Analytics
 NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=your_ga_id_here

@@ -1,29 +1,30 @@
 {
-  "name": "noxion",
-  "version": "0.1.0",
-  "private": false,
-  "description": "A modern, fast, and beautiful blog platform powered by Notion and Next.js 14",
-  "author": "Noxion Team",
+  "name": "jiwon-me",
+  "version": "1.0.0",
+  "private": true,
+  "description": "지원의 개인 블로그 - Notion과 Next.js 14로 구현된 기술 블로그",
+  "author": "Jiwon",
   "license": "MIT",
-  "homepage": "https://github.com/your-username/noxion#readme",
+  "homepage": "https://jiwon.me",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/noxion.git"
+    "url": "https://github.com/jiwon-me/jiwon-me.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/noxion/issues"
+    "url": "https://github.com/jiwon-me/jiwon-me/issues"
   },
   "keywords": [
+    "개인블로그",
+    "기술블로그",
+    "개발자",
     "notion",
     "blog",
     "nextjs",
     "react",
     "typescript",
-    "markdown",
-    "cms",
-    "static-site-generator",
     "tailwindcss",
-    "notion-api"
+    "frontend",
+    "backend"
   ],
   "scripts": {
     "dev": "next dev",

@@ -62,41 +62,43 @@ export interface NavItem {
 // 사이트 설정
 export const siteConfig: SiteConfig = {
   // 기본 사이트 정보
-  name: "Noxion Blog",
-  shortName: "Noxion",
-  description: "Transform your Notion pages into a stunning blog. Share your thoughts, stories, and insights with the world.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://your-domain.com",
+  name: "Jiwon's Blog",
+  shortName: "Jiwon",
+  description: "개발자 지원의 일상과 기술에 대한 이야기를 담은 개인 블로그입니다. Notion으로 작성하고 Next.js로 구현했습니다.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://jiwon.me",
   
   // 메타데이터
   keywords: [
+    "개발자", 
+    "블로그", 
+    "프론트엔드", 
+    "백엔드", 
+    "웹개발", 
+    "프로그래밍",
+    "기술블로그",
+    "개인블로그",
     "notion", 
-    "blog", 
-    "writing", 
-    "publishing", 
     "nextjs", 
     "react", 
-    "typescript",
-    "markdown",
-    "content management"
+    "typescript"
   ],
   author: {
-    name: "Noxion",
-    email: "contact@noxion.dev",
-    url: "https://noxion.dev"
+    name: "Jiwon",
+    email: "hello@jiwon.me",
+    url: "https://jiwon.me"
   },
   
   // 로고 및 브랜딩
   logo: {
-    icon: Sparkles, // Sparkles, Zap, Star, Heart, BookOpen 등에서 선택 가능
-    text: "Noxion",
+    icon: BookOpen, // Sparkles, Zap, Star, Heart, BookOpen 등에서 선택 가능
+    text: "Jiwon",
     showText: true
   },
   
   // 소셜 링크
   social: {
-    twitter: "@noxion_dev",
-    github: "https://github.com/noxion",
-    email: "contact@noxion.dev"
+    github: "https://github.com/jiwon-me",
+    email: "hello@jiwon.me"
   },
   
   // 내비게이션
@@ -116,8 +118,7 @@ export const siteConfig: SiteConfig = {
   
   // SEO 설정
   seo: {
-    locale: "ko_KR", // 한국어 설정
-    twitterHandle: "@noxion_dev"
+    locale: "ko_KR" // 한국어 설정
   },
   
   // 기능 설정
